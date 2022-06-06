@@ -364,7 +364,6 @@ body::after {
   font-weight: 700;
   color: #1a1a1a;
   line-height: 1.25;
-  text-align: center;
 }
 @media (min-width: 73.75em) {
   .title {
@@ -386,6 +385,11 @@ body::after {
 @media (max-width: 20em) {
   .title {
     font-size: 1.625rem;
+  }
+}
+@media (max-width: 47.99875em) {
+  .title {
+    text-align: center;
   }
 }
 
