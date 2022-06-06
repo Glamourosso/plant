@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Main</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220606163109">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="120" data-scroll-show class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo">Plant</a>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" data-goto=".main" data-goto-header class="menu__link link">Home</a>
+							</li>
+							<li class="menu__item"><a href="#" data-goto=".collection" data-goto-header class="menu__link link">Services</a></li>
+							<li class="menu__item"><a href="#" data-goto=".about" data-goto-header class="menu__link link">About
+									Us</a></li>
+							<li class="menu__item"><a href="#" data-goto=".costomers" data-goto-header class="menu__link link">Blog</a>
+							</li>
+							<li class="menu__item"><a href="#" data-goto=".follow" data-goto-header class="menu__link link">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__row">
+					<a href="#" data-popup="#login" class="header__button-login">Login</a>
+					<a href="#" class="header__button-singup">Sing Up</a>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="main">
+				<div class="main__content">
+					<div class="main__container">
+						<div class="main__body">
+							<h1 class="main__title">Growing Beautiful Plants at Home</h1>
+							<div class="main__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, tempor,
+								accumsan sit amet nunc cursus. Nec tristique at in erat lectus mas sa diam. Lectus elit, nulla
+								elementum fringilla at.</div>
+							<a href="#" class="main__button button">Learn More</a>
+							<div class="main__ratting ratting-main">
+								<div class="ratting-main__column">
+									<div class="ratting-main__number">2000+</div>
+									<div class="ratting-main__user">Delivery</div>
+								</div>
+								<div class="ratting-main__column">
+									<div class="ratting-main__number">1200+</div>
+									<div class="ratting-main__user">Customers</div>
+								</div>
+								<div class="ratting-main__column">
+									<div class="ratting-main__number">1000+</div>
+									<div class="ratting-main__user">Product</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="main__image"><picture><source srcset="img/main.webp" type="image/webp"><img src="img/main.jpg" alt=""></picture></div>
+			</section>
+			<section class="collection">
+				<div class="collection__container">
+					<div class="collection__content">
+						<h2 class="collection__title">We have lots of plants collection for you and your family</h2>
+						<a href="#" class="collection__link _icon-arrow">See all collection</a>
+					</div>
+					<div data-gallery class="collection__gallery gallery">
+						<a href="img/collection/01.jpg" class="gallery__img-ibg">
+							<picture><source srcset="img/collection/1.webp" type="image/webp"><img src="img/collection/1.jpg" alt="preview" class="gallery__preview"></picture>
+						</a>
+						<a href="img/collection/02.jpg" class="gallery__img-ibg">
+							<picture><source srcset="img/collection/2.webp" type="image/webp"><img src="img/collection/2.jpg" alt="preview" class="gallery__preview"></picture>
+						</a>
+						<a href="img/collection/03.jpg" class="gallery__img-ibg">
+							<picture><source srcset="img/collection/3.webp" type="image/webp"><img src="img/collection/3.jpg" alt="preview" class="gallery__preview"></picture>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="about">
+				<div class="about__container">
+					<div class="about__content">
+						<div class="about__img about__img-ibg">
+							<picture><source srcset="img/aboutUs/1.webp" type="image/webp"><img src="img/aboutUs/1.jpg" alt=""></picture>
+						</div>
+						<div class="about__body">
+							<div class="about__suptitle">About Us</div>
+							<h2 class="about__title title">Continue to Develop to Became Global Company</h2>
+							<div class="about__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, tempor,
+								accumsan sit amet nunc cursus. Nec tristique at in erat lectus mas sa diam. Lectus elit, nulla
+								elementum fringilla at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, tempor,
+								accumsan sit amet nunc cursus. Nec tristique at in erat lectus mas sa diam. Lectus elit, nulla
+								elementum fringilla at.</div>
+							<div class="about__subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, tempor,
+								accumsan sit amet nunc cursus. </div>
+							<div class="about__button">
+								<a href="#" class="about__link button">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="product">
+				<div class="product__container">
+					<h2 class="product__title title">Our Best Product</h2>
+					<div data-tabs class="product__tabs tabs-product">
+						<nav data-tabs-titles class="tabs-product__navigation">
+							<button type="button" class="tabs-product__title _tab-active">New Plants</button>
+							<button type="button" class="tabs-product__title">New Arrivals</button>
+							<button type="button" class="tabs-product__title">Sale</button>
+						</nav>
+						<div data-tabs-body class="tabs-product__content">
+							<div data-showmore="items" class="tabs-product__body">
+								<div data-showmore-content="1" class="tabs-product__row">
+									<div id="cart-product_1" class="tabs-product__cart cart-product">
+										<a href="#" class="cart-product__img"><picture><source srcset="img/product/1.webp" type="image/webp"><img src="img/product/1.png" alt=""></picture></a>
+										<a href="#" class="cart-product__title">Outdoor Plant</a>
+										<div class="cart-product__rating"></div>
+										<div class="cart-product__price">$50.00</div>
+									</div>
+									<div id="cart-product_2" class="tabs-product__cart cart-product">
+										<a href="#" class="cart-product__img"><picture><source srcset="img/product/2.webp" type="image/webp"><img src="img/product/2.png" alt=""></picture></a>
+										<a href="#" class="cart-product__title">Monstera Plant</a>
+										<div class="cart-product__rating"></div>
+										<div class="cart-product__price">$50.00</div>
+									</div>
+									<div id="cart-product_3" class="tabs-product__cart cart-product">
+										<a href="#" class="cart-product__img"><picture><source srcset="img/product/3.webp" type="image/webp"><img src="img/product/3.png" alt=""></picture></a>
+										<a href="#" class="cart-product__title">Pottel Plant</a>
+										<div class="cart-product__rating"></div>
+										<div class="cart-product__price">$50.00</div>
+									</div>
+									<div id="cart-product_4" class="tabs-product__cart cart-product">
+										<a href="#" class="cart-product__img"><picture><source srcset="img/product/4.webp" type="image/webp"><img src="img/product/4.png" alt=""></picture></a>
+										<a href="#" class="cart-product__title">Indoor Plant</a>
+										<div class="cart-product__rating"></div>
+										<div class="cart-product__price">$50.00</div>
+									</div>
+									<div id="cart-product_1" class="tabs-product__cart cart-product">
+										<a href="#" class="cart-product__img"><picture><source srcset="img/product/1.webp" type="image/webp"><img src="img/product/1.png" alt=""></picture></a>
+										<a href="#" class="cart-product__title">Outdoor Plant</a>
+										<div class="cart-product__rating"></div>
+										<div class="cart-product__price">$50.00</div>
+									</div>
+									<div id="cart-product_1" class="tabs-product__cart cart-product">
+										<a href="#" class="cart-product__img"><picture><source srcset="img/product/1.webp" type="image/webp"><img src="img/product/1.png" alt=""></picture></a>
+										<a href="#" class="cart-product__title">Outdoor Plant</a>
+										<div class="cart-product__rating"></div>
+										<div class="cart-product__price">$50.00</div>
+									</div>
+									<div id="cart-product_1" class="tabs-product__cart cart-product">
+										<a href="#" class="cart-product__img"><picture><source srcset="img/product/1.webp" type="image/webp"><img src="img/product/1.png" alt=""></picture></a>
+										<a href="#" class="cart-product__title">Outdoor Plant</a>
+										<div class="cart-product__rating"></div>
+										<div class="cart-product__price">$50.00</div>
+									</div>
+									<div id="cart-product_1" class="tabs-product__cart cart-product">
+										<a href="#" class="cart-product__img"><picture><source srcset="img/product/1.webp" type="image/webp"><img src="img/product/1.png" alt=""></picture></a>
+										<a href="#" class="cart-product__title">Outdoor Plant</a>
+										<div class="cart-product__rating"></div>
+										<div class="cart-product__price">$50.00</div>
+									</div>
+								</div>
+								<div class="product__button">
+									<button hidden data-showmore-button class="product__link button">
+										<span>View All</span>
+										<span>Hide</span>
+									</button>
+								</div>
+							</div>
+							<div data-showmore="items" class="tabs-product__body">
+								<div data-showmore-content="1" class="tabs-product__row">
+									<div id="cart-product_1" class="tabs-product__cart cart-product">
+										<a href="#" class="cart-product__img"><picture><source srcset="img/product/1.webp" type="image/webp"><img src="img/product/1.png" alt=""></picture></a>
+										<a href="#" class="cart-product__title">Outdoor Plant</a>
+										<div class="cart-product__rating"></div>
+										<div class="cart-product__price">$50.00</div>
+									</div>
+									<div id="cart-product_2" class="tabs-product__cart cart-product">
+										<a href="#" class="cart-product__img"><picture><source srcset="img/product/2.webp" type="image/webp"><img src="img/product/2.png" alt=""></picture></a>
+										<a href="#" class="cart-product__title">Monstera Plant</a>
+										<div class="cart-product__rating"></div>
+										<div class="cart-product__price">$50.00</div>
+									</div>
+									<div id="cart-product_3" class="tabs-product__cart cart-product">
+										<a href="#" class="cart-product__img"><picture><source srcset="img/product/3.webp" type="image/webp"><img src="img/product/3.png" alt=""></picture></a>
+										<a href="#" class="cart-product__title">Pottel Plant</a>
+										<div class="cart-product__rating"></div>
+										<div class="cart-product__price">$50.00</div>
+									</div>
+									<div id="cart-product_4" class="tabs-product__cart cart-product">
+										<a href="#" class="cart-product__img"><picture><source srcset="img/product/4.webp" type="image/webp"><img src="img/product/4.png" alt=""></picture></a>
+										<a href="#" class="cart-product__title">Indoor Plant</a>
+										<div class="cart-product__rating"></div>
+										<div class="cart-product__price">$50.00</div>
+									</div>
+									<div id="cart-product_1" class="tabs-product__cart cart-product">
+										<a href="#" class="cart-product__img"><picture><source srcset="img/product/1.webp" type="image/webp"><img src="img/product/1.png" alt=""></picture></a>
+										<a href="#" class="cart-product__title">Outdoor Plant</a>
+										<div class="cart-product__rating"></div>
+										<div class="cart-product__price">$50.00</div>
+									</div>
+									<div id="cart-product_1" class="tabs-product__cart cart-product">
+										<a href="#" class="cart-product__img"><picture><source srcset="img/product/1.webp" type="image/webp"><img src="img/product/1.png" alt=""></picture></a>
+										<a href="#" class="cart-product__title">Outdoor Plant</a>
+										<div class="cart-product__rating"></div>
+										<div class="cart-product__price">$50.00</div>
+									</div>
+									<div id="cart-product_1" class="tabs-product__cart cart-product">
+										<a href="#" class="cart-product__img"><picture><source srcset="img/product/1.webp" type="image/webp"><img src="img/product/1.png" alt=""></picture></a>
+										<a href="#" class="cart-product__title">Outdoor Plant</a>
+										<div class="cart-product__rating"></div>
+										<div class="cart-product__price">$50.00</div>
+									</div>
+									<div id="cart-product_1" class="tabs-product__cart cart-product">
+										<a href="#" class="cart-product__img"><picture><source srcset="img/product/1.webp" type="image/webp"><img src="img/product/1.png" alt=""></picture></a>
+										<a href="#" class="cart-product__title">Outdoor Plant</a>
+										<div class="cart-product__rating"></div>
+										<div class="cart-product__price">$50.00</div>
+									</div>
+								</div>
+								<div class="product__button">
+									<button hidden data-showmore-button class="product__link button">
+										<span>View All</span>
+										<span>Hide</span>
+									</button>
+								</div>
+							</div>
+							<div data-showmore="items" class="tabs-product__body">
+								<div data-showmore-content="1" class="tabs-product__row">
+									<div id="cart-product_1" class="tabs-product__cart cart-product">
+										<a href="#" class="cart-product__img"><picture><source srcset="img/product/1.webp" type="image/webp"><img src="img/product/1.png" alt=""></picture></a>
+										<a href="#" class="cart-product__title">Outdoor Plant</a>
+										<div class="cart-product__rating"></div>
+										<div class="cart-product__price">$50.00</div>
+									</div>
+									<div id="cart-product_2" class="tabs-product__cart cart-product">
+										<a href="#" class="cart-product__img"><picture><source srcset="img/product/2.webp" type="image/webp"><img src="img/product/2.png" alt=""></picture></a>
+										<a href="#" class="cart-product__title">Monstera Plant</a>
+										<div class="cart-product__rating"></div>
+										<div class="cart-product__price">$50.00</div>
+									</div>
+									<div id="cart-product_3" class="tabs-product__cart cart-product">
+										<a href="#" class="cart-product__img"><picture><source srcset="img/product/3.webp" type="image/webp"><img src="img/product/3.png" alt=""></picture></a>
+										<a href="#" class="cart-product__title">Pottel Plant</a>
+										<div class="cart-product__rating"></div>
+										<div class="cart-product__price">$50.00</div>
+									</div>
+									<div id="cart-product_4" class="tabs-product__cart cart-product">
+										<a href="#" class="cart-product__img"><picture><source srcset="img/product/4.webp" type="image/webp"><img src="img/product/4.png" alt=""></picture></a>
+										<a href="#" class="cart-product__title">Indoor Plant</a>
+										<div class="cart-product__rating"></div>
+										<div class="cart-product__price">$50.00</div>
+									</div>
+									<div id="cart-product_1" class="tabs-product__cart cart-product">
+										<a href="#" class="cart-product__img"><picture><source srcset="img/product/1.webp" type="image/webp"><img src="img/product/1.png" alt=""></picture></a>
+										<a href="#" class="cart-product__title">Outdoor Plant</a>
+										<div class="cart-product__rating"></div>
+										<div class="cart-product__price">$50.00</div>
+									</div>
+									<div id="cart-product_1" class="tabs-product__cart cart-product">
+										<a href="#" class="cart-product__img"><picture><source srcset="img/product/1.webp" type="image/webp"><img src="img/product/1.png" alt=""></picture></a>
+										<a href="#" class="cart-product__title">Outdoor Plant</a>
+										<div class="cart-product__rating"></div>
+										<div class="cart-product__price">$50.00</div>
+									</div>
+									<div id="cart-product_1" class="tabs-product__cart cart-product">
+										<a href="#" class="cart-product__img"><picture><source srcset="img/product/1.webp" type="image/webp"><img src="img/product/1.png" alt=""></picture></a>
+										<a href="#" class="cart-product__title">Outdoor Plant</a>
+										<div class="cart-product__rating"></div>
+										<div class="cart-product__price">$50.00</div>
+									</div>
+									<div id="cart-product_1" class="tabs-product__cart cart-product">
+										<a href="#" class="cart-product__img"><picture><source srcset="img/product/1.webp" type="image/webp"><img src="img/product/1.png" alt=""></picture></a>
+										<a href="#" class="cart-product__title">Outdoor Plant</a>
+										<div class="cart-product__rating"></div>
+										<div class="cart-product__price">$50.00</div>
+									</div>
+								</div>
+								<div class="product__button">
+									<button hidden data-showmore-button class="product__link button">
+										<span>View All</span>
+										<span>Hide</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<section class="costomers">
+				<div class="costomers__container">
+					<div class="costomers__content">
+						<div class="costomers__body">
+							<h2 class="costomers__title title">What Our Customers Says</h2>
+							<div class="costomers__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu,
+								tempor,
+								accumsan sit amet nunc cursus. Nec tristique at in erat lectus mas sa diam. Lectus elit, nulla
+								elementum fringilla at.</div>
+							<div class="costomers__slider swiper">
+								<div class="costomers__wrapper swiper-wrapper">
+									<div class="costomers__slide swiper-slide">
+										<div class="swiper-slide__info">
+											<div class="swiper-slide__img"><picture><source srcset="img/customers/1.webp" type="image/webp"><img src="img/customers/1.jpg" alt=""></picture></div>
+											<div class="swiper-slide__row">
+												<div class="swiper-slide__name">Hasanul Islam</div>
+												<div class="swiper-slide__work">Marketing CEO</div>
+											</div>
+										</div>
+										<div class="swiper-slide__text text">Lorem ipsum dolor sit amet, consectetur adipiscing
+											elit.
+											Eu, tempor, accumsan sit amet nunc cursus. Nec tristique at in erat lectus mas sa
+											diam.
+											Lectus elit, nulla elementum fringilla at.</div>
+										<div class="swiper-slide__icon"><img src="img/customers/3.svg" alt=""></div>
+										<button type="button" class="swiper-button-prev _icon-arrow"></button>
+										<button type="button" class="swiper-button-next _icon-arrow"></button>
+									</div>
+									<div class="costomers__slide swiper-slide">
+										<div class="swiper-slide__info">
+											<div class="swiper-slide__img"><picture><source srcset="img/customers/1.webp" type="image/webp"><img src="img/customers/1.jpg" alt=""></picture></div>
+											<div class="swiper-slide__row">
+												<div class="swiper-slide__name">Hasanul Islam</div>
+												<div class="swiper-slide__work">Marketing CEO</div>
+											</div>
+										</div>
+										<div class="swiper-slide__text text">Lorem ipsum dolor sit amet, consectetur adipiscing
+											elit.
+											Eu, tempor, accumsan sit amet nunc cursus. Nec tristique at in erat lectus mas sa
+											diam.
+											Lectus elit, nulla elementum fringilla at.</div>
+										<div class="swiper-slide__icon"><img src="img/customers/3.svg" alt=""></div>
+										<button type="button" class="swiper-button-prev _icon-arrow"></button>
+										<button type="button" class="swiper-button-next _icon-arrow"></button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="costomers__image-ibg">
+							<picture><source srcset="img/customers/2.webp" type="image/webp"><img src="img/customers/2.jpg" alt=""></picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="subscribe">
+				<div class="subscribe__container">
+					<div class="subscribe__content">
+						<div class="subscribe__body">
+							<h2 class="subscribe__title title">Subscribe Our Newsletter</h2>
+							<div class="subscribe__text text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, at
+								tempor, accumsan sit amet nunc cursus.
+							</div>
+							<form action="#" class="subscribe__form"></form>
+							<div class="subscribe__row">
+								<input autocomplete="off" type="text" name="subscribe__form[]" data-error="Ошибка" placeholder="Enter mail..." class="subscribe__input input">
+								<button class="subscribe__button">Subscribe</button>
+							</div>
+						</div>
+						<div class="subscribe__img">
+							<picture><source srcset="img/subscribe/1.webp" type="image/webp"><img src="img/subscribe/1.png" alt=""></picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="follow">
+				<div class="follow__container">
+					<div class="follow__content">
+						<h2 class="follow__title title">Follow Us on Instagram</h2>
+						<div class="follow__text text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, tempor,
+							accu
+							msan sit amet nunc cursus. Nec tristique at in erat lectus
+						</div>
+						<div class="follow__row">
+							<a href="#" class="follow__card">
+								<picture><source srcset="img/follow/1.webp" type="image/webp"><img class="follow__img" src="img/follow/1.jpg" alt=""></picture>
+								<div class="follow__logo">
+									<img src="img/Instagram.svg" alt="">
+								</div>
+							</a>
+							<a href="#" class="follow__card">
+								<picture><source srcset="img/follow/2.webp" type="image/webp"><img class="follow__img" src="img/follow/2.jpg" alt=""></picture>
+								<div class="follow__logo">
+									<img src="img/Instagram.svg" alt="">
+								</div>
+							</a>
+							<a href="#" class="follow__card">
+								<picture><source srcset="img/follow/3.webp" type="image/webp"><img class="follow__img" src="img/follow/3.jpg" alt=""></picture>
+								<div class="follow__logo">
+									<img src="img/Instagram.svg" alt="">
+								</div>
+							</a>
+							<a href="#" class="follow__card">
+								<picture><source srcset="img/follow/4.webp" type="image/webp"><img class="follow__img" src="img/follow/4.jpg" alt=""></picture>
+								<div class="follow__logo">
+									<img src="img/Instagram.svg" alt="">
+								</div>
+							</a>
+							<a href="#" class="follow__card">
+								<picture><source srcset="img/follow/5.webp" type="image/webp"><img class="follow__img" src="img/follow/5.jpg" alt=""></picture>
+								<div class="follow__logo">
+									<img src="img/Instagram.svg" alt="">
+								</div>
+							</a>
+							<a href="#" class="follow__card follow__card_phone">
+								<picture><source srcset="img/follow/1.webp" type="image/webp"><img class="follow__img" src="img/follow/1.jpg" alt=""></picture>
+								<div class="follow__logo">
+									<img src="img/Instagram.svg" alt="">
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__info">
+					<h2 class="footer__title">Plant</h2>
+					<div class="footer__text text">Lorem ipsum dolor sit amet, consectetur adi piscing elit. Diam nibh posuere duis
+						eu
+						non sit integer at placerat amet.</div>
+					<div class="footer__social">
+						<a href="#" class="footer__social-link _icon-facebook"></a>
+						<a href="#" class="footer__social-link _icon-twiter"></a>
+						<a href="#" class="footer__social-link _icon-instagram"></a>
+					</div>
+				</div>
+				<nav class="footer__nav">
+					<ul class="footer__list">
+						<li class="footer__item">
+							<h2 class="footer__title">Navigation</h2>
+						</li>
+						<li class="footer__item"><a href="#" class="footer__link link">Home</a></li>
+						<li class="footer__item"><a href="#" class="footer__link link">About</a></li>
+						<li class="footer__item"><a href="#" class="footer__link link">Help & Support</a></li>
+						<li class="footer__item"><a href="#" class="footer__link link">Product</a></li>
+					</ul>
+					<ul class="footer__list">
+						<li class="footer__item">
+							<h2 class="footer__title">About Us</h2>
+						</li>
+						<li class="footer__item"><a href="#" class="footer__link link">Contact</a></li>
+						<li class="footer__item"><a href="#" class="footer__link link">Address</a></li>
+						<li class="footer__item"><a href="#" class="footer__link link">Blog</a></li>
+						<li class="footer__item"><a href="#" class="footer__link link">About Us</a></li>
+					</ul>
+					<ul class="footer__list">
+						<li class="footer__item">
+							<h2 class="footer__title">Help</h2>
+						</li>
+						<li class="footer__item"><a href="#" class="footer__link link">Coustomers Services</a></li>
+						<li class="footer__item"><a href="#" class="footer__link link">FAQs</a></li>
+						<li class="footer__item"><a href="#" class="footer__link link">We Are Hiring</a></li>
+						<li class="footer__item"><a href="#" class="footer__link link">Returns</a></li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
+	</div>
+	<div id="login" aria-hidden="true" class="popup login">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">Close</button>
+				<div class="login__body">
+					<h1 class="login__title title">Login</h1>
+					<form action="#" class="login__form">
+						<input autocomplete="off" type="text" name="login__form[]" data-error="Ошибка" placeholder="Login" class="input login__input">
+						<input autocomplete="off" type="password" name="login__form[]" data-error="Ошибка" placeholder="Password" class="input login__input">
+						<a href="#" class="login__link">Lost your password?</a>
+						<div>
+							<input autocomplete="off" type="checkbox" name="form[]" data-error="Ошибка" placeholder="" class="input login__check">
+							<label for="login__check">Don't remember me</label>
+						</div>
+						<button class="login__button button">Login</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20220606163109"></script>
+</body>
+
+</html>
